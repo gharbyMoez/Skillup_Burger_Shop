@@ -18,6 +18,7 @@ import MyOrders from "./components/myOrders/MyOrders"; // Import the MyOrders co
 
 import OrderDetails from "./components/myOrders/OrderDetails";
 import About from "./components/about/About";
+      
 
 
 import "./styles/app.scss";
@@ -44,6 +45,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
 
+{/* Route test for CART */}
         {/* Route for CART */}
         <Route path="/cart" element={<Cart />} />
 
